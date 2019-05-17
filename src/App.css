@@ -5,7 +5,7 @@ body{
 }
 
 .dashboard{
-  margin: 50px;
+  margin: 50px 0 0 250px;
 }
 .header{
   background: #ab2a19;
@@ -45,6 +45,7 @@ body{
   margin: 10px;
   display: flex;
   align-items: center;
+  background: grey;
 }
 
 .product-image img{
@@ -58,10 +59,10 @@ body{
 }
 
 .form-container{
-  margin: 50px;
+  margin: 60px 200px 0 0;
   background: #3ad886;
   height: 480px;
-  width: 350px;
+  width: 450px;
   border-radius: 8px;
 }
 
@@ -72,6 +73,7 @@ body{
 }
 
 .form-image img{
+  background: grey;
   border-radius: 3px;
   width: 300px;
   height: 200px;
@@ -88,14 +90,44 @@ body{
 
 .form-btns{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
   margin: 20px 0;
 }
 
 .form-btns button{
+  margin: 5px 20px 20px 20px;
   width: 30%;
   height: 35px;
   border-radius: 5px;
   border: none;
   background: #ED6b5a
+}
+
+.edit {
+  background: #3ad886;
+  height: 40px;
+  width: 60px;
+  border-radius: 7px;
+  border: none
+}
+
+.delete {
+  background: #3ad886;
+  height: 40px;
+  width: 60px;
+  border-radius: 7px;
+  border: none
+}
+
+.data{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.product-btns{
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
 }
