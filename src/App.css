@@ -1,33 +1,101 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.dashboard{
+  margin: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  background: #ab2a19;
+  height: 80px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.header h1{
+  margin-left: 13px;
+  font-weight: 700;
+  font-size: 28px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  height: 50px;
+  margin-left: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-container{
+  margin: 10px;
+  height: 250px;
+  width: 550px;
+  border-radius: 8px;
+  background: #d34735;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-image{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.product-image img{
+  border-radius: 3px;
+  height: 230px;
+  width: 300px;
+}
+
+.data{
+  width: 250px;
+}
+
+.form-container{
+  margin: 50px;
+  background: #3ad886;
+  height: 480px;
+  width: 350px;
+  border-radius: 8px;
+}
+
+.form-image{
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-image img{
+  border-radius: 3px;
+  width: 300px;
+  height: 200px;
+}
+
+.form input{
+  margin-left: 2%;
+  width: 94%;
+}
+
+.form p {
+  margin: 7px 7px 7px 10px;
+}
+
+.form-btns{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.form-btns button{
+  width: 30%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background: #ED6b5a
 }
